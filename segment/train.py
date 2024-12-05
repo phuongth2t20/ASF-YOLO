@@ -16,6 +16,7 @@ Tutorial:   https://github.com/ultralytics/yolov5/wiki/Train-Custom-Data
 """
 import wandb
 wandb_login_success = False
+wandb.require("legacy-service")
 
 import argparse
 import math
